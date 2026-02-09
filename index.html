@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQC - Super Quant Coders | NIT Jalandhar</title>
+
+    <!-- Tailwind & Icons -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <div class="text-2xl orbitron font-bold glow-text">SQC</div>
+                <div class="hidden md:block text-sm text-gray-400">NIT Jalandhar</div>
+            </div>
+            <button class="md:hidden text-2xl" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="fixed inset-0 bg-black bg-opacity-95 z-50 hidden">
+        <div class="flex flex-col items-center justify-center h-full space-y-8">
+            <button id="closeMobileMenu" class="absolute top-6 right-6 text-3xl">
+                <i class="fas fa-times"></i>
+            </button>
+            <a href="#about" class="mobile-menu-link">About</a>
+            <a href="#proje
